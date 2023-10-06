@@ -6,5 +6,6 @@ sau khi setup xong:
 4. chạy deploy.sh
 Xem hướng dẫn mỗi file —help, ví dụ create_key_and_fetch_account.sh —help, file nào k hiện là dễ quá k có help :))
 Lưu ý: 
-- Phải cài đặt python
+- Phải cài đặt python => để lấy tên token khi deploy phải chạy lệnh python3 -i util.py sau đó chạy hàm str_to_felt("ten token") => lấy chuối này để tạo tên khi deploy tương tự hàm khác nếu cần, thoát gõ exit()
 - Nếu máy window thì vào market microsoft cài đặt ubuntu bản 22.04 sau đó chạy trên ubuntu 22.04
+- Trước khi chạy file .sh phải chạy lệnh chmod +x để cấp quyền ví dụ: chmod +x build.sh create_key_and_fetch_account.sh declare.sh deploy.sh => chỉ làm 1 lần duy nhất trước khi chạy
