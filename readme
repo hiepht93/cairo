@@ -1,0 +1,10 @@
+setup: https://docs.starknet.io/documentation/quick_start/environment_setup/
+sau khi setup xong: 
+1. chạy file build.sh
+2. chạy create_key_and_fetch_account.sh
+3. chạy declare.sh
+4. chạy deploy.sh
+Xem hướng dẫn mỗi file —help, ví dụ create_key_and_fetch_account.sh —help, file nào k hiện là dễ quá k có help :))
+Lưu ý: 
+- Phải cài đặt python
+- Nếu máy window thì vào market microsoft cài đặt ubuntu bản 22.04 sau đó chạy trên ubuntu 22.04
