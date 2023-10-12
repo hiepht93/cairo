@@ -1,11 +1,34 @@
-setup: https://docs.starknet.io/documentation/quick_start/environment_setup/
-sau khi setup xong: 
-1. chạy file build.sh
-2. chạy create_key_and_fetch_account.sh
-3. chạy declare.sh
-4. chạy deploy.sh
-Xem hướng dẫn mỗi file —help, ví dụ create_key_and_fetch_account.sh —help, file nào k hiện là dễ quá k có help :))
-Lưu ý: 
-- Phải cài đặt python => để lấy tên token khi deploy phải chạy lệnh python3 -i util.py sau đó chạy hàm str_to_felt("ten token") => lấy chuối này để tạo tên khi deploy tương tự hàm khác nếu cần, thoát gõ exit()
-- Nếu máy window thì vào market microsoft cài đặt ubuntu bản 22.04 sau đó chạy trên ubuntu 22.04
-- Trước khi chạy file .sh phải chạy lệnh chmod +x để cấp quyền ví dụ: chmod +x build.sh create_key_and_fetch_account.sh declare.sh deploy.sh => chỉ làm 1 lần duy nhất trước khi chạy
+English:
+README
+Setting up StarkNet Environment
+To set up the environment for StarkNet, follow the instructions in the official setup documentation.
+
+After Setup:
+Run the build.sh script.
+Run the create_key_and_fetch_account.sh script.
+Run the declare.sh script.
+Run the deploy.sh script.
+For help on each file, use the —help option. For example, create_key_and_fetch_account.sh --help. If a file doesn't display help, it means it's straightforward and does not have a help option.
+
+Note:
+
+Python must be installed. To retrieve the token name during deployment, run the command python3 -i util.py, then execute the str_to_felt("token name") function to obtain the required string for naming during deployment. Utilize similar functions if needed, and exit by typing exit().
+If using Windows, install the Ubuntu 22.04 version from the Microsoft Store, and run the scripts within Ubuntu 22.04.
+Before running the .sh files, ensure to execute the chmod +x command to grant permissions. For example: chmod +x build.sh create_key_and_fetch_account.sh declare.sh deploy.sh. Perform this step only once before running.
+Vietnamese:
+HƯỚNG DẪN
+Cài đặt môi trường StarkNet
+Để cài đặt môi trường cho StarkNet, làm theo hướng dẫn trong tài liệu cài đặt chính thức.
+
+Sau khi cài đặt:
+Chạy lệnh build.sh.
+Chạy lệnh create_key_and_fetch_account.sh.
+Chạy lệnh declare.sh.
+Chạy lệnh deploy.sh.
+Để xem hướng dẫn cho mỗi file, sử dụng tùy chọn —help. Ví dụ, create_key_and_fetch_account.sh --help. Nếu một file không hiển thị trợ giúp, điều đó có nghĩa là nó khá đơn giản và không có tùy chọn trợ giúp.
+
+Lưu ý:
+
+Cần phải cài đặt Python. Để lấy tên token khi triển khai, chạy lệnh python3 -i util.py, sau đó thực thi hàm str_to_felt("tên token") để có chuỗi cần thiết để đặt tên khi triển khai. Sử dụng các hàm tương tự nếu cần, và thoát bằng cách gõ exit().
+Nếu sử dụng Windows, cài đặt phiên bản Ubuntu 22.04 từ Microsoft Store, và chạy các tập lệnh trong Ubuntu 22.04.
+Trước khi chạy các tập lệnh .sh, đảm bảo thực thi lệnh chmod +x để cấp quyền. Ví dụ: chmod +x build.sh create_key_and_fetch_account.sh declare.sh deploy.sh. Thực hiện bước này chỉ một lần trước khi chạy.
