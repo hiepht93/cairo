@@ -1,3 +1,4 @@
+
 # X AI Starknet Contract
 
 ## Introduction
@@ -23,17 +24,16 @@ For detailed instructions on each script, use the `--help` option. For example:
 Make sure you have Python installed. To retrieve the token name during deployment, run the command:
 ```bash
 python3 -i util.py
-
+```
 Then, execute the str_to_felt("token name") function to obtain the required string for naming during deployment. Utilize similar functions if needed. :
 ```bash
 str_to_felt("token name")
-
-
+```
 
 To exit the Python interpreter, type:
 ```bash
 exit()
-
+```
 Note:
 If you are using Windows, follow these steps to ensure proper execution:
 
@@ -44,7 +44,7 @@ Before running the `.sh` files, ensure to grant execution permissions. Open the 
 
 ```bash
 chmod +x build.sh create_key_and_fetch_account.sh declare.sh deploy.sh
-
+```
 ## Contribution Guidelines
 
 If you'd like to contribute to this project, please follow the [contribution guidelines](CONTRIBUTING.md).
