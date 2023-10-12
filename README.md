@@ -63,6 +63,22 @@ Chạy lệnh deploy.sh.
 
 ## Lưu ý:
 
-Cần phải cài đặt Python. Để lấy tên token khi triển khai, chạy lệnh python3 -i util.py, sau đó thực thi hàm str_to_felt("tên token") để có chuỗi cần thiết để đặt tên khi triển khai. Sử dụng các hàm tương tự nếu cần, và thoát bằng cách gõ exit().
-Nếu sử dụng Windows, cài đặt phiên bản Ubuntu 22.04 từ Microsoft Store, và chạy các tập lệnh trong Ubuntu 22.04.
-Trước khi chạy các tập lệnh .sh, đảm bảo thực thi lệnh chmod +x để cấp quyền. Ví dụ: chmod +x build.sh create_key_and_fetch_account.sh declare.sh deploy.sh. Thực hiện bước này chỉ một lần trước khi chạy.
+Cần phải cài đặt Python để lấy tên token cast từ string sang felt. Sau khi cài đặt python, để lấy tên token khi triển khai, chạy lệnh 
+```bash
+python3 -i util.py
+```
+sau đó thực thi hàm 
+```bash
+str_to_felt("tên token");
+```
+để có chuỗi cần thiết để đặt tên khi triển khai. 
+Sử dụng các hàm tương tự nếu cần, và thoát bằng cách gõ 
+```bash
+exit();
+```
+Nếu sử dụng Windows, cài đặt phiên bản Ubuntu 22.04 từ [Microsoft Store](https://www.microsoft.com/store/apps/ubuntu/300011281), và chạy các tập lệnh trong Ubuntu 22.04.
+Trước khi chạy các tập lệnh .sh, đảm bảo thực thi lệnh chmod +x để cấp quyền.
+```bash
+chmod +x build.sh create_key_and_fetch_account.sh declare.sh deploy.sh
+```
+Thực hiện bước này chỉ một lần trước khi chạy.
